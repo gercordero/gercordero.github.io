@@ -1,3 +1,8 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   font-family: "Raleway";
   font-size: 14px;
@@ -112,6 +117,10 @@ body {
 .aboutImage {
   border-radius: 10px;
   width: 100%;
+}
+
+#about p {
+  font-size: 13pt;
 }
 
 .skillsSection,
